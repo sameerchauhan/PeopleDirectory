@@ -1,0 +1,31 @@
+﻿NAME,DOB,BIRTHPLACE,HEIGHT,WEIGHT
+Julian Alaphilippe,11.06.1992,St-Amand Montrond,173,62
+Jan Bakelants,14.02.1986,Oudenaarde,177,67
+Tom Boonen,15.10.1980,Mol,192,82
+Gianluca Brambilla,22.08.1987,Bellano,170,57
+Mark Cavendish,21.05.1985,Isle of Man,175,70
+Thomas De Gendt,06.11.1986,Sint-Niklaas,179,68
+Kevin De Weert,27.05.1982,Duffel,182,70
+Andrew Fenn,01.07.1990,Birmingham,186,79
+Michal Golas,29.04.1984,Torun,180,65
+Iljo Keisse,21.12.1982,Gent,183,72
+Michal Kwiatkowski,02.06.1990,Chelmza,176,68
+Nikolas Maes,09.04.1986,Kortrijk,190,79
+Tony Martin,23.04.1985,Cottbus,186,75
+Gianni Meersman,05.12.1985,Tielt,177,63
+Serge Pauwels,21.11.1983,Lier,178,64
+Alessandro Petacchi,03.01.1974,La Spezia,184,75
+Wout Poels,01.10.1987,Venray,186,66
+Mark Renshaw,22.10.1982,Bathurst,179,73
+Pieter Serry,21.11.1988,Aalter,186,65
+Gert Steegmans,30.09.1980,Hasselt,190,82
+Zdenek Stybar,11.12.1985,Plana U Marianskych,183,68
+Niki Terpstra,18.05.1984,Beverwijk,189,75
+Matteo Trentin,02.08.1989,Borgo Valsugana,179,74
+Rigoberto Uran,26.01.1987,Urrao,173,63
+Petr Vakoc,11.07.1992,Prague,179,68
+Guillaume Van Keirsbulck,14.02.1991,Roeselare,192,85
+Stijn Vandenbergh,25.04.1984,Oudenaarde,199,85
+Martin Velits,21.02.1985,Bratislava,185,72
+Julien Vermote,26.07.1989,Kortrijk,179,71
+Carlos Verona,04.11.1992,San Lorenzo del Escorial,186,68

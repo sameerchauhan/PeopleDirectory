@@ -1,4 +1,6 @@
 ﻿using System;
+using System.IO;
+using System.Web.Hosting;
 using DAL;
 
 namespace Services
@@ -9,7 +11,8 @@ namespace Services
 
         public static IPeopleRepository GetPersonRepository()
         {
-            return _peopleRepository ?? new PeopleRepository();
+            string dataLocation = Path.Combine(HostingEnvironment.ApplicationPhysicalPath, "App_Data", "People.txt");
+            return _peopleRepository ?? new PeopleRepository(dataLocation);
         }
 
         public static void SetRepository(IPeopleRepository peopleRepository)

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Reflection;
 using Domain;
 
 namespace DAL
@@ -10,9 +11,9 @@ namespace DAL
     {
         private readonly IEnumerable<Person> _data;
 
-        public PeopleRepository()
+        public PeopleRepository(string fileLocation)
         {
-            _data = from line in File.ReadAllLines(@"C:\throwaway\PeopleDirectory\PeopleDirectory\DAL\People.txt").Skip(1)
+            _data = from line in File.ReadAllLines(fileLocation).Skip(1)
                     let columns = line.Split(',')
                     select new Person
                     {
@@ -41,6 +42,6 @@ namespace DAL
             var age =  nextYear.Year - dateOfBirth.Year;
             if (dateOfBirth > nextYear.AddYears(-age)) age--;
             return age;
-        }
+        }       
     }
 }
